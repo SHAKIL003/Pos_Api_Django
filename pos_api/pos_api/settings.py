@@ -37,9 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'rest_framework',
-    'rest_framework_simplejwt',
+    'rest_framework', # Rest Framework
+    'rest_framework_simplejwt', # RestFramework Json Web Token JWT
     'user',  # Our user app
+    'product', # Product app
 ]
 
 MIDDLEWARE = [
