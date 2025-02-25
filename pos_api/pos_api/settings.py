@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt', # RestFramework Json Web Token JWT
     'user',  # Our user app
     'product', # Product app
+    'order', # Order app
 ]
 
 MIDDLEWARE = [
